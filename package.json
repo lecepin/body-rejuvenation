@@ -1,0 +1,23 @@
+{
+  "name": "body-rejuvenation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lecepin/body-rejuvenation.git"
+  },
+  "author": "lecepin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lecepin/body-rejuvenation/issues"
+  },
+  "homepage": "https://github.com/lecepin/body-rejuvenation#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.45"
+  }
+}
