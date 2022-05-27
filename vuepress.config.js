@@ -9,5 +9,16 @@ module.exports = {
   theme: defaultTheme({
     repo: "https://github.com/lecepin/body-rejuvenation",
     logo: "/logo.png",
+    sidebar: [
+      {
+        text: "起始",
+        link: "/",
+      },
+
+      {
+        text: "睡眠",
+        link: "/sleep/",
+      },
+    ],
   }),
 };
