@@ -19,6 +19,11 @@ module.exports = {
         text: "睡眠",
         link: "/sleep/",
       },
+
+      {
+        text: "强肾",
+        link: "/kidney/",
+      },
     ],
   }),
 };
