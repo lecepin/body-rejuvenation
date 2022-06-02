@@ -9,21 +9,27 @@ module.exports = {
   theme: defaultTheme({
     repo: "https://github.com/lecepin/body-rejuvenation",
     logo: "/logo.png",
-    sidebar: [
-      {
-        text: "起始",
-        link: "/",
-      },
-
-      {
-        text: "睡眠",
-        link: "/sleep/",
-      },
-
-      {
-        text: "强肾",
-        link: "/kidney/",
-      },
+    navbar: [
+      { text: "指南", link: "/guide/" },
+      { text: "食补", link: "/diet/" },
     ],
+    sidebar: {
+      "/guide/": [
+        {
+          text: "指南",
+          children: [
+            "/guide/README.md",
+            "/guide/sleep/README.md",
+            "/guide/kidney/README.md",
+          ],
+        },
+      ],
+      "/diet/": [
+        {
+          text: "食补",
+          children: ["/diet/README.md", "/diet/肾虚腰痛.md"],
+        },
+      ],
+    },
   }),
 };
