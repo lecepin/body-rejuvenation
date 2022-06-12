@@ -11,12 +11,13 @@ module.exports = {
     logo: "/logo.png",
     navbar: [
       { text: "指南", link: "/guide/" },
+      { text: "物理疗法", link: "/fitness/" },
       { text: "食补", link: "/diet/" },
     ],
     sidebar: {
       "/guide/": [
         {
-          text: "指南",
+          // text: "指南",
           children: [
             "/guide/README.md",
             "/guide/sleep/README.md",
@@ -26,8 +27,14 @@ module.exports = {
       ],
       "/diet/": [
         {
-          text: "食补",
+          // text: "食补",
           children: ["/diet/README.md", "/diet/肾虚腰痛.md"],
+        },
+      ],
+      "/fitness/": [
+        {
+          // text: "物理疗法",
+          children: ["/fitness/README.md", "/fitness/PC.md"],
         },
       ],
     },
