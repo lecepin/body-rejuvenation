@@ -1,11 +1,19 @@
 const { defaultTheme } = require("@vuepress/theme-default");
+const { pwaPlugin } = require("@vuepress/plugin-pwa");
 
 module.exports = {
   lang: "zh-CN",
   title: "程序员回春术",
   description: "程序员回春术",
   base: "/body-rejuvenation/",
-  head: [["link", { rel: "icon", href: "/body-rejuvenation/logo.png" }]],
+  head: [
+    ["link", { rel: "icon", href: "/body-rejuvenation/logo.png" }],
+    [
+      "link",
+      { rel: "manifest", href: "/body-rejuvenation/manifest.webmanifest" },
+    ],
+    ["script", { src: "/body-rejuvenation/reg.sw.js" }],
+  ],
   theme: defaultTheme({
     repo: "https://github.com/lecepin/body-rejuvenation",
     logo: "/logo.png",
@@ -39,4 +47,9 @@ module.exports = {
       ],
     },
   }),
+  plugins: [
+    pwaPlugin({
+      skipWaiting: true,
+    }),
+  ],
 };
