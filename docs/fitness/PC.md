@@ -40,6 +40,6 @@ PC 肌又叫耻骨尾骨肌，准确的说是肌肉群。从身体前方的耻�
 
 下面是一些训练视频，可做参考。
 
-<iframe src="//player.bilibili.com/player.html?aid=68373641&bvid=BV12J41137Fp&cid=118501263&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>
+<a href="https://www.bilibili.com/video/BV12J41137Fp" target="_blank"><img src="./images/5.jpg" /></a>
 
-<iframe src="//player.bilibili.com/player.html?aid=337496614&bvid=BV14R4y1W7FV&cid=462347524&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>
+<a href="https://www.bilibili.com/video/BV14R4y1W7FV" target="_blank"><img src="./images/6.jpg" /></a>
