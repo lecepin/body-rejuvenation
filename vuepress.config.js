@@ -36,7 +36,12 @@ module.exports = {
       "/diet/": [
         {
           // text: "食补",
-          children: ["/diet/README.md", "/diet/肾虚腰痛.md", "/diet/早衰.md"],
+          children: [
+            "/diet/README.md",
+            "/diet/肾虚腰痛.md",
+            "/diet/早衰.md",
+            "/diet/遗精.md",
+          ],
         },
       ],
       "/fitness/": [
