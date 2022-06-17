@@ -47,7 +47,11 @@ module.exports = {
       "/fitness/": [
         {
           // text: "物理疗法",
-          children: ["/fitness/README.md", "/fitness/PC.md"],
+          children: [
+            "/fitness/README.md",
+            "/fitness/PC.md",
+            "/fitness/臀肌.md",
+          ],
         },
       ],
     },
