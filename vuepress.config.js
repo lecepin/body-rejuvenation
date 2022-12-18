@@ -30,6 +30,8 @@ module.exports = {
             "/guide/README.md",
             "/guide/sleep/README.md",
             "/guide/kidney/README.md",
+            "/guide/control-inflammation/README.md",
+            "/guide/16h-fasting/README.md",
           ],
         },
       ],
