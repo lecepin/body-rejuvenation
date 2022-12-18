@@ -1,0 +1,1 @@
+const e={key:"v-8e01fd80",path:"/fitness/",title:"\u7269\u7406\u7597\u6CD5",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1655029201e3,contributors:[{name:"lecepin",email:"383810086@qq.com",commits:1}]},filePathRelative:"fitness/README.md"};export{e as data};
